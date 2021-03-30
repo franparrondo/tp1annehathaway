@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;600&family=Nunito:wght@200;400&display=swap');
+
+body{
+    background-color:black ;
+    font-family:'Nunito', sans-serif;
+}
+
+.barradenavegacion a{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.menu{
+    padding: 30px;
+}
+
+.menu nav ul{
+    list-style: none;
+    text-align: right;
+}
+.menu nav ul li{
+    display: inline;
+}
+
+.menu nav ul li a{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px;
+    transition: background-color .5s;
+    transition: color;
+}
+
+.menu nav ul li a:hover{
+    background-color:whitesmoke;
+    opacity: 0.8;
+    color: black;
+    border-radius: 25px;    
+}
+
+.banner{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    position: center;
+}
+
+.texto{
+    width: 50%;
+    float: left;
+    
+}
+.texto h1{
+    font-weight: 400;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.texto p{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 19px;
+}
+.texto a{
+    color: whitesmoke;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 19px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-top: 19px;    
+}
+
+.anneimg{
+    width: 45%;
+    float: right;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.anneimg img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.clearfloat{
+    clear: both;
+}
+.cajapelis{
+    text-align: center;
+    max-width: 24.3%;
+    display: block;
+    float: left;
+    margin: auto;
+}
+
+.cajapelis h1{
+    text-align:center;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cajapelis img{
+    width:75%;
+    margin: 12px;
+    transition: 1s;
+    border-radius: 18px;
+
+} 
+
+footer{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    padding-top:  22px;
+
+}
+
+.textoanne h1{
+    font-weight: 400;
+    font-size: 29px;
+    color: whitesmoke;
+    margin-top: 20px;
+    
+}
+.textoanne p{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 17px;
+    margin-top: 19px;
+}
+.cajafotos{
+    color:black;
+    text-align: center;
+    font-weight: 200;
+    font-size: 19px;
+    margin-top: 50px;
+    padding: 1px;
+    background-color:grey;
+}
+.cajaimg {
+    width: 22.5%;
+    float:left;
+    margin: 11px;
+    align-content: center;
+    
+}
+.cajaimg img{
+    width: 100%;
+    border-radius: 60px;
+}
+#contenedor{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
